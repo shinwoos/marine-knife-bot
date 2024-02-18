@@ -11,9 +11,7 @@ const {
   getVoiceConnection,
 } = require("@discordjs/voice");
 
-client.login(
-  "MTIwNDA1MTM5OTA1MTMyMTQyNA.GGMYD5.iATIpMmnYdOfG_i-4KlN8qviW3TPKQjaoFT4XY"
-);
+client.login("token!");
 
 client.once("ready", () => console.log(client.user.tag + "start!"));
 
